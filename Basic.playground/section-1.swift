@@ -29,7 +29,7 @@ for index in 1...5 {
     println(index);
 }
 
-let names = ["Ted","YuanZheng", "Other name"];
+let names:[String] = ["Ted","YuanZheng", "Other name"]; // Specify names is a string array
 for name in names {
     println(name);
 }
